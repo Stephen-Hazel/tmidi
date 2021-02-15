@@ -1,0 +1,4 @@
+Mon.11:47:46.733 DTX drums  (IO  hw:2,0)
+Mon.11:47:46.733 CME GPP-3  (IO  hw:3,0)
+Mon.11:47:46.734 USB Uno MIDI Interface  (IO  hw:4,0)
+Mon.11:47:46.734 Vortex Wireless  (IO  hw:5,0)
