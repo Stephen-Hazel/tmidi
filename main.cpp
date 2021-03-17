@@ -69,7 +69,7 @@ static void list_card_devices (int card)
   char name [32];
   int  device;
   int  err;
-DBG("card#=`d", card);
+//DBG("card#=`d", card);
    sprintf (name, "hw:%d", card);
    if ((err = snd_ctl_open (&ctl, name, 0)) < 0) {
       error ("cannot open control for card %d: %s", card, snd_strerror (err));
@@ -122,4 +122,4 @@ static void rawmidi_list (void)
 }
 
 
-int main ()  {device_list ();   rawmidi_list ();   return 0;}
+int main ()  {device_list ();   /* nawww rawmidi_list (); */   return 0;}
