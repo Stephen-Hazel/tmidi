@@ -56,10 +56,10 @@ int main ()
             if ((sub == 0) && (nsub == 1))
                   DBG ("`c`c  hw:`d,`d  `s",
                        sub < isub ? 'I':' ',
-                       sub < osub ? 'O':' ', card, dev, desc);
+                       sub < osub ? 'O':' ', card, dev,      desc);
             else  DBG ("`c`c  hw:`d,`d,`d  `s",
                        sub < isub ? 'I':' ',
-                       sub < osub ? 'O':' ', card, dev, desc2);
+                       sub < osub ? 'O':' ', card, dev, sub, desc2);
          }
       }
       snd_ctl_close (ctl);
